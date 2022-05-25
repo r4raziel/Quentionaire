@@ -6,7 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            Question_4 question = new Question_4();
+            Question_5_index question = new Question_5_index();
             question.process();         
 
         }

@@ -12,9 +12,11 @@ namespace questionnaire
     // ouput : e
     // string B contain all the element
     //there is a one extra character which is e
+    // input : string strA ='kxml'
+    //       : string strB ='klxml'
+    // ouput : l
 
-
-   public class Question_4
+    public class Question_4
     {
         
 
@@ -52,7 +54,7 @@ namespace questionnaire
         public void process()
         {
             Console.WriteLine("Reading question 4...");
-            Console.WriteLine("Result:" + string.Join(" ", findExtraCharacter()));
+            Console.WriteLine("Result:" + string.Join(",", findExtraCharacter()));
         }
     }
 }
