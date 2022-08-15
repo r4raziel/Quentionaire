@@ -8,7 +8,7 @@ namespace questionnaire
 {
     // Given an array A of integers and integer K, return the maximun S such that there exists i < j with A[i] + A[j]=S and S < K.
     // Example 1:
-    // Input: A = [34,23,1,24,75,33,54,8] , K=60
+    // Input: A = [34,23,1,24,75,33,54,58] , K=60
     // Output: 58
     // Explanantion:
     // We can use 34 and 24 to sum 58 which is less than 60 and there's no pait with sum of 59, therefore, the maximum sum is 58
@@ -21,7 +21,7 @@ namespace questionnaire
     //Explanation:
     // In this case it's not possible to get a pair sum less than 15.
 
-    public class Question_5_index
+    public class Question_5_Alter
     {
         
 
@@ -64,9 +64,9 @@ namespace questionnaire
         }
         public void process()
         {
-            Console.WriteLine("processing question 5...");
-            int[] A = { 3,3 };
-            int K = 6;
+            Console.WriteLine("processing question 5 alternative...");
+            int[] A = { 34, 23, 1, 24, 75, 33, 54, 58 };
+            int K = 60;
 
             int[] B = { 10, 20, 30 };
             int M = 15;

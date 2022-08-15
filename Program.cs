@@ -6,7 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            Question_5_index question = new Question_5_index();
+            Codility_RightShiftArray question = new Codility_RightShiftArray();
             question.process();         
 
         }
