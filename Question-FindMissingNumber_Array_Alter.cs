@@ -15,7 +15,7 @@ namespace questionnaire
     //Output: [2,3]
 
 
-    public class Question_6_Alter
+    public class Question_FindMissingNumber_Array_Alter
     {
         public static int[] findErrorNums(int[] nums)
         {

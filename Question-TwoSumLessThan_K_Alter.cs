@@ -21,7 +21,7 @@ namespace questionnaire
     //Explanation:
     // In this case it's not possible to get a pair sum less than 15.
 
-    public class Question_5_Alter
+    public class Question_TwoSumLessThan_K_Alter
     {
         
 
