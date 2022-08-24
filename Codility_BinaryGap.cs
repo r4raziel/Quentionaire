@@ -19,22 +19,25 @@ namespace questionnaire
         {
             int[] rotation = new int[A.Length];
             int count = 0;
-            if (K == 0){
-                return A;   
+            if (K == 0)
+            {
+                return A;
             }
-            for (int j = A.Length - 1; j >=0; j--){
+            for (int j = A.Length - 1; j >= 0; j--)
+            {
                 if (count == 0)
                 {
-                    rotation[count] = A[j];                    
+                    rotation[count] = A[j];
                 }
-                else {                    
-                    rotation[count] = A[count-1];
+                else
+                {
+                    rotation[count] = A[count - 1];
                 }
                 count++;
             }
             count = 0;
-            return recursiveRotation(rotation,K-1);
-        
+            return recursiveRotation(rotation, K - 1);
+
         }
         public static int[] rightshiftArray(int[] A, int K)
         {
@@ -46,8 +49,7 @@ namespace questionnaire
             int[] A = { 3, 8, 9, 7, 6 };
             int K = 3;
 
-        
-            Console.WriteLine("Result:" + string.Join(",", rightshiftArray(A,K)));
+            Console.WriteLine("Result:" + string.Join(",", rightshiftArray(A, K)));
         }
     }
 }

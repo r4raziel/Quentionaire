@@ -6,8 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            // Codility_RightShiftArray question = new Codility_RightShiftArray();
-            Codility_ExtractTime question = new Codility_ExtractTime();
+            Codility_PermMissingElem question = new Codility_PermMissingElem();           
             question.process();         
 
         }

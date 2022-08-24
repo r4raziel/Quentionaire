@@ -36,18 +36,26 @@ namespace questionnaire
     public class Codility_PermMissingElem
     {
 
-        public static int solutionPermMissinng(int[] num)
+        public static int solutionPermMissinng(int[] A)
         {
-            int v_size = num.Length + 1;
-            int sumOfAllElements = (v_size* (1 + v_size)) /2;
-            int result = sumOfAllElements - num.Sum();
-            return result;
+            HashSet<int> nums = new HashSet<int>();
+            for(int i=1; i<=A.Length +1; i++)
+            {
+                nums.Add(i);
+            }
+
+            foreach(var item in A)
+            {
+                nums.Remove(item);
+            }
+
+            return nums.FirstOrDefault();
         }
        
         public void process()
         {
             Console.WriteLine("processing Codility rightshiftArray...");
-            int[] A = { 1,4,5,6 };
+            int[] A = { 1,2,4,5,6 };
             
             Console.WriteLine("Result:" + string.Join(",", solutionPermMissinng(A)));
         }

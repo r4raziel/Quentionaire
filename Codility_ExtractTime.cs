@@ -29,7 +29,6 @@ namespace questionnaire
             var numberLength = Math.Floor(Math.Log10(n) + 1);
             if (numberLength > 2)
             {
-
                 for (int i = 0; i < 3; i++)
                 {
                     if (n > 60)
@@ -37,13 +36,9 @@ namespace questionnaire
                         timeArray[0] = n / 60;
                         n = n % 60;
                     }
-                    else if ((n * 60) > 60)
-                    {
-                        timeArray[1] = n % 60;
-                    }
                     else
                     {
-                        timeArray[2] = n;
+                        timeArray[1] = n;
                     }
                 }
             }
@@ -73,9 +68,8 @@ namespace questionnaire
         public void process()
             {
                 Console.WriteLine("processing Codility Exctract time...");
-                int K = 5;
-            
-            Console.WriteLine("Result:" + string.Join(",", ExtractTime(K)));
+                int K = 9263;            
+                Console.WriteLine("Result:" + string.Join(",", ExtractTime(K)));
             }
         }
 }
