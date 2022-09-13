@@ -6,7 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            Codility_TapeEquilibrium question = new Codility_TapeEquilibrium();           
+            Codility_ExtractTime question = new Codility_ExtractTime();           
             question.process();         
 
         }

@@ -24,7 +24,7 @@ namespace questionnaire
 
     //Example 3:
     //there are no lucky numbers in the array beacuse 2 occurs 3 times and 3 occurs twice in the array.
-   public class Question_2
+   public class Question_FindDuplicateNumber
     {
         public string[] readNumbers()
         {

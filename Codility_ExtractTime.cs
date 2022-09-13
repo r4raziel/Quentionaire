@@ -65,10 +65,23 @@ namespace questionnaire
                 return "not computable";
         }
 
+
+
+        public string calculateTime(int seconds)
+        {
+
+            int S = seconds % 60;
+            int H = seconds / 60;
+            int M = H % 60;
+            H = H / 60;
+
+            return (H + ":" + M + ":" + S);
+           
+        }
         public void process()
             {
                 Console.WriteLine("processing Codility Exctract time...");
-                int K = 200;            
+                int K = 86399;            
                 Console.WriteLine("Result:" + string.Join(",", ExtractTime(K)));
             }
         }
