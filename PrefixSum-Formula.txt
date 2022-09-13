@@ -1,0 +1,3 @@
+﻿Prefix sum
+
+A[i,j] = A[j] - A[i-1]

@@ -1,0 +1,15 @@
+D:\VsProjects\SampleTest\bin\Debug\net6.0\questionnaire.exe
+D:\VsProjects\SampleTest\bin\Debug\net6.0\questionnaire.deps.json
+D:\VsProjects\SampleTest\bin\Debug\net6.0\questionnaire.runtimeconfig.json
+D:\VsProjects\SampleTest\bin\Debug\net6.0\questionnaire.dll
+D:\VsProjects\SampleTest\bin\Debug\net6.0\questionnaire.pdb
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.csproj.AssemblyReference.cache
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.GeneratedMSBuildEditorConfig.editorconfig
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.AssemblyInfoInputs.cache
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.AssemblyInfo.cs
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.csproj.CoreCompileInputs.cache
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.dll
+D:\VsProjects\SampleTest\obj\Debug\net6.0\refint\questionnaire.dll
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.pdb
+D:\VsProjects\SampleTest\obj\Debug\net6.0\questionnaire.genruntimeconfig.cache
+D:\VsProjects\SampleTest\obj\Debug\net6.0\ref\questionnaire.dll

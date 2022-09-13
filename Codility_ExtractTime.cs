@@ -68,7 +68,7 @@ namespace questionnaire
         public void process()
             {
                 Console.WriteLine("processing Codility Exctract time...");
-                int K = 9263;            
+                int K = 200;            
                 Console.WriteLine("Result:" + string.Join(",", ExtractTime(K)));
             }
         }

@@ -41,7 +41,7 @@ namespace questionnaire
                 int[] A = { 9, 3, 9, 3, 5 };
                 int[] B = { 4, 3, 4, 2, 2 };
 
-            Console.WriteLine("Result:" + string.Join(",", findOddOneOut(A)));
+            Console.WriteLine("Result:" + string.Join(",", findOddOneOut(B)));
             }
         }
 }

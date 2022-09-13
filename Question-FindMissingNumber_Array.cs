@@ -15,7 +15,7 @@ namespace questionnaire
     //Output: [2,3]
 
 
-    public class Question_6
+    public class Question_FindMissingNumber_Array
     {
         public static int[] findErrorNums(int[] nums)
         {
@@ -55,7 +55,8 @@ namespace questionnaire
             int[] A = { 1,2,3,4,3 };
 
             int[] B = { 1, 2, 2 };
-            Console.WriteLine("Result:" + string.Join(",", findErrorNums(A)));
+            
+            Console.WriteLine("Result:" + string.Join(",", findErrorNums(B)));
         }
     }
 }
