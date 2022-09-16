@@ -6,7 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            Codility_ExtractTime question = new Codility_ExtractTime();           
+            Google_FindSum_Number question = new Google_FindSum_Number();           
             question.process();         
 
         }
