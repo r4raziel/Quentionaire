@@ -6,7 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            Google_FindSum_Number question = new Google_FindSum_Number();           
+            Codility_GenomicRangeQuery question = new Codility_GenomicRangeQuery();           
             question.process();         
 
         }

@@ -25,7 +25,7 @@ namespace questionnaire
                         currentGap ++;
                         x++;
                     }                    
-                    index = i + 1;
+                    index = x + 1;
                     if (currentGap > maxGap)
                         maxGap = currentGap;
                     currentGap = 0;

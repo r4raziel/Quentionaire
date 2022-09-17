@@ -51,7 +51,7 @@ namespace questionnaire
         public void process()
         {
             Console.WriteLine("processing question 6...");
-            int[] A = { 1, 3, 3, 4, 2 };
+            int[] A = { 1, 3, 6, 4,1,2 };
 
             int[] B = { 1, 2, 2 };
             Console.WriteLine("Result:" + string.Join(",", findErrorNums(A)));
