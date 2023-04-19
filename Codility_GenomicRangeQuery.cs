@@ -11,26 +11,42 @@ namespace questionnaire
         public int[] FindMinimalfactor(char[] Sequence, int[] P, int[] Q)
         {
             List<int> result = new List<int>();
-            IDictionary<char, int> map = new Dictionary<char, int>() { {'A',1 }, { 'C', 2 }, { 'G', 3}, { 'T', 4} };
-            IDictionary<char, int> countMap = new Dictionary<char, int>();
+            int[] A = new int[Sequence.Length];
+            int[] C = new int[Sequence.Length];
+            int[] G = new int[Sequence.Length];
+            int[] T = new int[Sequence.Length];
 
-            int counter = 0;
-            while (counter < P.Length)
+            int a=0,c=0,g=0, t=0;
+
+            for (int i = 0; i < Sequence.Length; i++)
             {
-                int start = P[counter];
-                int end = Q[counter];
-                for ( int k = start; k <= end; k++)
+
+                if (Sequence[i] == 'A') ++a;
+                else if (Sequence[i] == 'C') ++c;
+                else if (Sequence[i] == 'G') ++g;
+                else    { ++t; }
+                A[i] = a;
+                C[i] = c;
+                G[i] = g;
+                T[i] = t;
+            }
+
+
+            for (int i = 0; i < P.Length; i++)
+            {
+                if (P[i] == Q[i])
                 {
+                    if (Sequence[P[i]] =='A') result.Add(1);
+                    else if (Sequence[P[i]] =='C') result.Add(2);
+                    else if (Sequence[P[i]] == 'G') result.Add(3);
+                    else result.Add(4);
 
-                    if (!countMap.ContainsKey(Sequence[k]))
-                    {
-                        countMap.Add(Sequence[k], map[Sequence[k]]);
-                    }
                 }
+                else if (A[P[i]] < A[Q[i]] || Sequence[P[i]] == 'A') result.Add(1);
+                else if (C[P[i]] < C[Q[i]] || Sequence[P[i]] == 'C') result.Add(2);
+                else if (G[P[i]] < G[Q[i]] || Sequence[P[i]] == 'G') result.Add(3);
+                else if ( Sequence[P[i]] == 'T') result.Add(4);
 
-                result.Add(countMap.Min(x => x.Value));
-                countMap.Clear();
-                ++counter;
             }
 
             return result.ToArray();        

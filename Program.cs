@@ -6,7 +6,7 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            Codility_GenomicRangeQuery question = new Codility_GenomicRangeQuery();           
+            BinarySearch question = new BinarySearch();           
             question.process();         
 
         }
