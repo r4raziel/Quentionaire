@@ -20,7 +20,7 @@ namespace questionnaire
     {
         
 
-        public List<char> findExtraCharacter()
+        public static List<char> findExtraCharacter()
         {
             List<char> result = new List<char>();
 
@@ -51,7 +51,7 @@ namespace questionnaire
             }
             return result;
         }
-        public void process()
+        public static void process()
         {
             Console.WriteLine("Reading question 4...");
             Console.WriteLine("Result:" + string.Join(",", findExtraCharacter()));

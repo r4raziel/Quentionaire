@@ -6,9 +6,9 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            BinarySearch question = new BinarySearch();           
-            question.process();         
 
+            HackerRank_StringAnagram.process();
+           
         }
     }
 }
