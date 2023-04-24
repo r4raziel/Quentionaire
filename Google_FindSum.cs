@@ -8,10 +8,10 @@ namespace questionnaire
 {
     internal class Google_FindSum_Number
     {
-        public bool FindingSum(int[] A, int K)
+        public static bool FindingSum(int[] A, int K)
         {
             HashSet<int> complements = new HashSet<int>();
-            for (int i = 0; i <= A.Length-1; i++)
+            for (int i = 0; i < A.Length; i++)
             {
                 if (complements.Contains(A[i]))
                 {
@@ -23,7 +23,7 @@ namespace questionnaire
             return false;
         }
 
-        public void process()
+        public static void process()
         {
             Console.WriteLine("processing Google find sum...");
             int[] A = {1,2,3,9};

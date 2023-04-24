@@ -24,7 +24,7 @@ F:\Projects\Questionaire\obj\Debug\net6.0\questionnaire.AssemblyInfoInputs.cache
 F:\Projects\Questionaire\obj\Debug\net6.0\questionnaire.AssemblyInfo.cs
 F:\Projects\Questionaire\obj\Debug\net6.0\questionnaire.csproj.CoreCompileInputs.cache
 F:\Projects\Questionaire\obj\Debug\net6.0\questionnaire.dll
-F:\Projects\Questionaire\obj\Debug\net6.0\refint\questionnaire.dll
 F:\Projects\Questionaire\obj\Debug\net6.0\questionnaire.pdb
 F:\Projects\Questionaire\obj\Debug\net6.0\questionnaire.genruntimeconfig.cache
 F:\Projects\Questionaire\obj\Debug\net6.0\ref\questionnaire.dll
+F:\Projects\Questionaire\bin\Debug\net6.0\ref\questionnaire.dll

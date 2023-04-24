@@ -35,7 +35,7 @@ namespace questionnaire
 
         }
 
-        public void process()
+        public static void process()
             {
                 Console.WriteLine("processing Codility Exctract time...");
                 int[] A = { 9, 3, 9, 3, 5 };
