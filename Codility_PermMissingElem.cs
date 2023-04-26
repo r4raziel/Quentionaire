@@ -55,7 +55,7 @@ namespace questionnaire
         public void process()
         {
             Console.WriteLine("processing Codility rightshiftArray...");
-            int[] A = { 1,2,4,5,6 };
+            int[] A = {2,3,1,5};
             
             Console.WriteLine("Result:" + string.Join(",", solutionPermMissinng(A)));
         }

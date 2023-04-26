@@ -6,13 +6,10 @@ namespace questionnaire
     {
         static void Main(string[] args)
         {
-            // BinarySearch question = new BinarySearch();           
-            // question.process();         
+            // Codility_PermMissingElem question = new Codility_PermMissingElem();           
+            // question.process();
+            HackerRank_Diagonal.process();
 
-            //HackerRank_PlusMinus.process();
-            //Question_4.process();
-            //Codility_OddOccInArray.process();
-            Google_FindSum_Number.process();
         }
     }
 }
