@@ -33,6 +33,7 @@ namespace questionnaire
                     array[i]=numbers[i].ToString();
                 }
             }
+            
 
             Console.WriteLine(string.Join("\n", array));
             Console.ReadLine();
