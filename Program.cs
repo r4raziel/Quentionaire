@@ -8,7 +8,7 @@ namespace questionnaire
         {
             // Codility_PermMissingElem question = new Codility_PermMissingElem();           
             // question.process();
-            CodeSignal_Practise_1.process();
+            CodeSignal_RightShiftArray.process();
 
         }
     }
