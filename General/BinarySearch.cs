@@ -9,12 +9,12 @@ namespace questionnaire
     internal class BinarySearch
     {
 
-        public int BinarySearchMethod(ref int[] arr, int key)
+        public int BinarySearchMethod(int[] arr, int key)
         {
             int left = 0;
             int right = arr.Length;
 
-            while (left < right)
+            while (left <= right)
             {
                 int mid = (left + right) / 2;
                 if (key == arr[mid])
@@ -23,7 +23,7 @@ namespace questionnaire
                 }
                 else if (arr[mid] > key)
                 {
-                    right = mid;
+                    right = mid - 1;
                 }
                 else
                 {
@@ -34,13 +34,13 @@ namespace questionnaire
 
         }
 
-        public void process()
+        public  void process()
         {
             Console.WriteLine("processing bianry search...");
             int[] A = { 0, 4, 7, 10, 14, 23, 25, 47, 53,87,92}; // it must be sorted
             int Key = 47;
 
-            Console.WriteLine("Result:" + string.Join(",", BinarySearchMethod(ref A, Key)));
+            Console.WriteLine("Result:" + string.Join(",", BinarySearchMethod(A, Key)));
 
         }
     }

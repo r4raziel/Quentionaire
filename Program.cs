@@ -1,15 +1,20 @@
-﻿using System;
+﻿using Questionaire;
+using Questionaire.Andela;
+using System;
+using System.Collections.Generic;
 
-namespace questionnaire
+public class Program
 {
-   public class Program
-    {
-        static void Main(string[] args)
-        {
-            // Codility_PermMissingElem question = new Codility_PermMissingElem();           
-            // question.process();
-            CodeSignal_RightShiftArray.process();
 
-        }
+    public static void Main()
+    {
+
+        //BinarySearch search = new BinarySearch();
+        // search.process();  
+        Andela_Test1.process();
     }
+
 }
+
+
+

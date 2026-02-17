@@ -36,11 +36,11 @@ namespace questionnaire
 
         }
        
-        public void process()
+        public static void process()
         {
             Console.WriteLine("processing Codility BinaryGap...");
-            int A = 1041;
-
+           // int A = 1041;
+            int A = 32;
             Console.WriteLine("Result:" + string.Join(",", BinaryGap(A)));            
 
         }

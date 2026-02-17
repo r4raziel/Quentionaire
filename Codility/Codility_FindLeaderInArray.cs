@@ -39,12 +39,12 @@ namespace questionnaire
             return (-1);
         }
 
-        public void process()
+        public static void process()
             {
                 Console.WriteLine("processing Codility Exctract time...");
                 int[] A = { 2, 2, 2, 2, 2, 3, 4, 4, 4, 6 };
             int[] B = { 1,1,1,1,50 };
-            Console.WriteLine("Result:" + string.Join(",", FindLeader(A)));
+            Console.WriteLine("Result:" + string.Join(",", FindLeader(B)));
             }
         }
 }

@@ -48,7 +48,7 @@ namespace questionnaire
 
             return result;
         }
-        public void process()
+        public static void process()
         {
             Console.WriteLine("processing question 6...");
             int[] A = { 1, 3, 6, 4,1,2 };

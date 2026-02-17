@@ -34,13 +34,14 @@ namespace questionnaire
             return -1;
         }
        
-        public void process()
+        public static void process()
         {
             Console.WriteLine("processing Codility frog river...");
             int[] A = { 1, 3, 1, 4, 2, 3, 5, 4 };
+            int[] B = { 1,3,2,4,5 };
             int X = 5;
             
-            Console.WriteLine("Result:" + string.Join(",", solutionFrogRiver(X,A)));
+            Console.WriteLine("Result:" + string.Join(",", solutionFrogRiver(X,B)));
         }
     }
 }

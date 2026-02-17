@@ -11,6 +11,7 @@ namespace questionnaire
         public static bool FindingSum(int[] A, int K)
         {
             HashSet<int> complements = new HashSet<int>();
+            
             for (int i = 0; i < A.Length; i++)
             {
                 if (complements.Contains(A[i]))

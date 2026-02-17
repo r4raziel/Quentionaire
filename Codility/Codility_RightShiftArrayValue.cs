@@ -43,7 +43,7 @@ namespace questionnaire
         {
             return recursiveRotation(A, K);
         }
-        public void process()
+        public static void process()
         {
             Console.WriteLine("processing Codility rightshiftArray...");
             int[] A = { 3, 8, 9, 7, 6 };

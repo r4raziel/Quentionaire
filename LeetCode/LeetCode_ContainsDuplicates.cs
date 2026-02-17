@@ -26,9 +26,7 @@ namespace questionnaire
         public void process()
         {
             int[] A = new int[] { 1, 2, 3, 1 };
-
             int[] B = new int[] { 1, 1, 1, 3, 3, 4, 3, 2, 4, 2 };
-
             int[] C = new int[] { 1, 2, 3, 1 };
 
             Console.WriteLine("processing leet code...");

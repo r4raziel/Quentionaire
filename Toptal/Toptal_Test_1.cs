@@ -24,7 +24,6 @@ namespace questionnaire
                 if (char.IsLetter(lastChar))
                 {
                     GroupName = T[i].Substring(0, T[i].Length - 1);
-
                 }
                 else { 
                     GroupName= T[i];
@@ -49,9 +48,7 @@ namespace questionnaire
                     map.Add(GroupName, 0);
                 }
 
-            }
-
-            
+            }            
             
 
             int result = map.Values.Max() * 100 / map.Count;
