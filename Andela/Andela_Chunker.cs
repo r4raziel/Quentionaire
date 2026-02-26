@@ -7,6 +7,11 @@ namespace Questionaire.Andela
 {
     public class Andela_Chunker
     {
+        public string HelloWorld()
+        {
+            return "Hello World!";
+        }
+
         public static IEnumerable<string> ChunkIter(string s, int chunks)
         {
             if (chunks < 1)
